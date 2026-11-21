@@ -6,6 +6,7 @@ EvalSift Lite is a free, MIT-licensed Python tool (3.10+, no dependencies, no AP
 error analysis on LLM agent traces: it validates a `traces.jsonl` file, grades each trace with
 deterministic code checks, and writes a Markdown/HTML report of what failed. It comes with a
 case study: 100 traces from a tool-using support agent, labeled by hand.
+**Get the full Solo kit (100 labeled traces + data):** https://merletownley.gumroad.com/l/fjppx
 
 ## Try it (about a minute)
 ```bash
