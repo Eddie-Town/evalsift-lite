@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.env
+results*.jsonl
+report.html
+report.md
+eval-report.*
+calibration_report.*
+.DS_Store

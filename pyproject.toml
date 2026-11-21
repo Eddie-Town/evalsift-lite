@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evalsift-lite"
+version = "0.1.0.dev0"
+description = "Validate LLM agent traces, grade them with code checks, and get an offline HTML report."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["evalsift_lite*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
